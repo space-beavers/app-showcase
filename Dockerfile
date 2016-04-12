@@ -18,10 +18,5 @@ RUN npm install -g bower
 
 RUN bower --allow-root install -g
 
-RUN mv /usr/share/nginx/html/dist /usr/share/nginx/html2
+RUN mv ./default.conf /etc/nginx/conf.d/
 
-RUN rm -rf /usr/share/nginx/html 
-
-RUN mv /usr/share/nginx/html2 /usr/share/nginx/html
-
-RUN chmod 755 /usr/share/nginx/html
