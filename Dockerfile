@@ -10,6 +10,8 @@ RUN apk add --update git
 
 RUN apk add --update nodejs
 
+RUN git config --global url."https://".insteadOf git://
+
 RUN npm install -g bower@1.7.7
 
 RUN npm install -g bower
