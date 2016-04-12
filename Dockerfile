@@ -18,4 +18,4 @@ RUN npm install -g bower
 
 RUN bower --allow-root install -g
 
-#COPY ./dist /usr/share/nginx/html
+RUN mv /usr/share/nginx/html/dist /user/share/nginx/html 
