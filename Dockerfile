@@ -23,3 +23,5 @@ RUN mv /usr/share/nginx/html/dist /usr/share/nginx/html2
 RUN rm -rf /usr/share/nginx/html 
 
 RUN mv /usr/share/nginx/html2 /usr/share/nginx/html
+
+RUN chmod 755 /usr/share/nginx/html
