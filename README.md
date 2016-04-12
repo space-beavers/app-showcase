@@ -1,5 +1,4 @@
-![](https://cloud.githubusercontent.com/assets/110953/7877439/6a69d03e-0590-11e5-9fac-c614246606de.png)
-## Polymer Starter Kit
+# Space Beavers App Showcase [![Build Status](https://travis-ci.org/space-beavers/sb-app-showcase.svg?branch=master)](https://travis-ci.org/space-beavers/sb-app-showcase)
 
 > A starting point for building web applications with Polymer 1.0
 
