@@ -1,13 +1,10 @@
-FROM nginx
+FROM nginx:stable-alpine
 
 MAINTAINER Chris Saunders <slapheadted@gmail.com>
 
 COPY . /code
 
-# INSTALL NODE
-RUN curl -sL https://deb.nodesource.com/setup | bash -
-
-RUN apt-get install --yes nodejs
+RUN apk add --update nodejs
 
 # INSTALL BOWER
 RUN npm install -g bower@1.7.7
