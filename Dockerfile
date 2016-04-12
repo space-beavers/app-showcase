@@ -16,7 +16,7 @@ RUN npm install -g bower
 
 RUN bower --allow-root install -g
 
-RUN mv ./bower_components ./dist
+RUN mv ./app/bower_components ./dist
 
 RUN mv ./default.conf /etc/nginx/conf.d/
 
