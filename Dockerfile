@@ -1,22 +1,21 @@
-FROM nginx:stable-alpine
+FROM alpine:3.3
 
 MAINTAINER Chris Saunders <slapheadted@gmail.com>
 
-COPY . /usr/share/nginx/html
+COPY . /code
 
-WORKDIR /usr/share/nginx/html
+WORKDIR /code
 
-RUN apk add --update git
+RUN apk add git --update
 
-RUN apk add --update nodejs
+RUN apk add nodejs --update
+
+RUN npm install -g gulp@3.9.1
 
 RUN npm install -g bower@1.7.7
 
-RUN npm install -g bower
+RUN npm install
 
 RUN bower --allow-root install -g
 
-RUN mv ./app/bower_components ./dist
-
-RUN mv ./default.conf /etc/nginx/conf.d/
-
+#CMD gulp serve
