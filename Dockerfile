@@ -18,4 +18,4 @@ RUN npm install
 
 RUN bower --allow-root install -g
 
-#CMD gulp serve
+CMD gulp serve
