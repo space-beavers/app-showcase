@@ -10,7 +10,7 @@
     "polymer": "Polymer/polymer#^1.2.0",
     "html-canvas-image": "https://bitbucket.org/mebuckley_canada/html-canvas-image.git",
     "google-web-components": "GoogleWebComponents/google-analytics",
-    "sb-meme-generator": "git@github.com:space-beavers/sb-meme-generator.git"
+    "sb-meme-generator": "https://github.com/space-beavers/sb-meme-generator.git"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"
