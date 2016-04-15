@@ -1,6 +1,6 @@
 # Space Beavers App Showcase [![Build Status](https://travis-ci.org/space-beavers/sb-app-showcase.svg?branch=master)](https://travis-ci.org/space-beavers/sb-app-showcase)
 
-> A starting point for building web applications with Polymer 1.0
+> A starting point for building web applications with Polymer 1.0.
 
 ### Included out of the box: (test)
 
