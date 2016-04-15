@@ -16,8 +16,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   var app = document.querySelector('#app');
 
   // Sets app default base URL
-  app.baseUrl = 'https://space-beavers.github.io/';
+  app.baseUrl = '/';
   if (window.location.port === '') {  // if production
+    // Uncomment app.baseURL below and
+    // set app.baseURL to '/your-pathname/' if running from folder in production
      app.baseUrl = '/sb-app-showcase/';
   }
 
