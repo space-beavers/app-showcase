@@ -9,6 +9,10 @@ See latest Space Beavers App Showcase (from master) at https://space-beavers.git
 ### Setup
 ```sh
 npm install && bower install
+```
+
+### Run
+```sh
 npm run start
 ```
 
