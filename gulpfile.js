@@ -290,7 +290,7 @@ gulp.task('deploy-gh-pages', function() {
     // Check if running task from Travis CI, if so run using GH_TOKEN
     // otherwise run using ghPages defaults.
     .pipe($.if(process.env.TRAVIS === 'true', $.ghPages({
-      remoteUrl: 'https://$GH_TOKEN@github.com/space-beavers/sb-app-showcase.git',
+      remoteUrl: 'https://$GH_TOKEN@github.com/space-beavers/app-showcase.git',
       silent: true,
       branch: 'gh-pages'
     }), $.ghPages()));
